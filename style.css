@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    background-color:yellowgreen;
+}
+.container{
+    width: 1000px;
+    background-color: tomato;
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+    margin-bottom: 20px;
+
+}
+.header-bio{
+    float: left;
+    padding: 20px;
+}
+h1,h2,h3{
+    color: teal;
+}
+.header-contact{
+    float: right;
+}
+.header-contact a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 10px auto;
+}
+/*--personal section starts here*/
+#personal-section{
+
+}
+.content{
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+
+}
+.right-div{
+
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+
+}
+.edu-left{
+    float: left;
+    width: 45%;
+}
+.edu-right{
+    float: left;
+    width: 45%;
+
+}
+/*bottom starts here--*/
+.bottom{
+    background-color: black;
+    text-align: center;
+    color: white;
+
+}
+.bottom a{
+    color: white;
+}
